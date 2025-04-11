@@ -1,0 +1,104 @@
+/* Reset بعض الأنماط الافتراضية */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    color: #333;
+    line-height: 1.6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+}
+
+.container {
+    background: white;
+    padding: 20px 40px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 400px;
+}
+
+h1 {
+    font-size: 2em;
+    color: #4CAF50;
+    margin-bottom: 10px;
+}
+
+p {
+    font-size: 1em;
+    color: #666;
+    margin-bottom: 20px;
+}
+
+.password-box {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+#password-output {
+    flex: 1;
+    padding: 10px;
+    font-size: 1em;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    text-align: center;
+}
+
+#copy-btn {
+    background: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px;
+    margin-left: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+#copy-btn:hover {
+    background: #45a049;
+}
+
+.options {
+    margin-bottom: 20px;
+}
+
+.options label {
+    display: block;
+    margin-bottom: 10px;
+    font-size: 1em;
+}
+
+.options input[type="number"] {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1em;
+}
+
+#generate-btn {
+    background: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1em;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+    width: 100%;
+}
+
+#generate-btn:hover {
+    background: #45a049;
+}
